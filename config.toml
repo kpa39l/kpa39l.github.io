@@ -1,3 +1,28 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+
+baseURL = "https://kpa39l.github.io/"
+
+languageCode = "ru-ru"
+
+title = "Kpa39l"
+
+# Используемая тема
+theme = "ananke"
+
+#Сюда Hugo сохранит сгенерированный сайт
+publishdir = "./public/"
+
+[[menu.main]]
+  # Отображаемое название раздела
+  name = "Блог"
+
+  # Вес для сортировки пунктов меню,
+  # чем меньше - тем раньше пункт будет отображен
+  weight = 10
+
+  # Идентификатор родителя для вложенных пунктов,
+  # не все темы поддерживают вложенность
+  identifier = "blog"
+
+  # Путь до раздела со статьями,
+  # соответствует имени папки внутри <OWNER>.github.io/content/
+  url = "/blog"
