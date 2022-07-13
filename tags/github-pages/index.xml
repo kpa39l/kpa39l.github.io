@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kpa39l</title>
-    <link>https://kpa39l.github.io/</link>
-    <description>Recent content on Kpa39l</description>
+    <title>github pages on Kpa39l</title>
+    <link>https://kpa39l.github.io/tags/github-pages/</link>
+    <description>Recent content in github pages on Kpa39l</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <lastBuildDate>Wed, 13 Jul 2022 20:00:30 +0300</lastBuildDate><atom:link href="https://kpa39l.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jul 2022 20:00:30 +0300</lastBuildDate><atom:link href="https://kpa39l.github.io/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Статический блог на Hugo и Github</title>
       <link>https://kpa39l.github.io/blog/static-blog/static-blog/</link>

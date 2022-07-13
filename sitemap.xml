@@ -2,10 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kpa39l.github.io/categories/</loc>
+    <loc>https://kpa39l.github.io/tags/blog/</loc>
+    <lastmod>2022-07-13T20:00:30+03:00</lastmod>
+  </url><url>
+    <loc>https://kpa39l.github.io/blog/</loc>
+    <lastmod>2022-07-13T20:00:30+03:00</lastmod>
+  </url><url>
+    <loc>https://kpa39l.github.io/tags/github-pages/</loc>
+    <lastmod>2022-07-13T20:00:30+03:00</lastmod>
+  </url><url>
+    <loc>https://kpa39l.github.io/tags/hugo/</loc>
+    <lastmod>2022-07-13T20:00:30+03:00</lastmod>
   </url><url>
     <loc>https://kpa39l.github.io/</loc>
+    <lastmod>2022-07-13T20:00:30+03:00</lastmod>
   </url><url>
     <loc>https://kpa39l.github.io/tags/</loc>
+    <lastmod>2022-07-13T20:00:30+03:00</lastmod>
+  </url><url>
+    <loc>https://kpa39l.github.io/blog/static-blog/static-blog/</loc>
+    <lastmod>2022-07-13T20:00:30+03:00</lastmod>
+  </url><url>
+    <loc>https://kpa39l.github.io/categories/</loc>
   </url>
 </urlset>
