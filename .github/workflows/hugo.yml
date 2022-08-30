@@ -3,7 +3,7 @@ name: Build and Deploy Hugo Blog
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
