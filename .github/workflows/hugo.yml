@@ -23,4 +23,4 @@ jobs:
         TARGET_REPO: kpa39l/kpa39l.github.io
         TARGET_BRANCH: gh-pages
         TOKEN: ${{ secrets.ACTIONS_TOKEN }}
-        CNAME: gelonet.ru
+#        CNAME: gelonet.ru
