@@ -1,0 +1,45 @@
+baseURL = "https://gelonet.ru/"
+languageCode = "ru-ru"
+title = "Storozhenko"
+theme = "hemingway"
+copyright = "&copy; <a href=\"https://github.com/tanksuzuki\">Asuka Suzuki</a> 2016"
+disqusShortname = "gelonet"
+googleAnalytics = ""
+
+[params]
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/kpa39l"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/kpa39l"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+
+#Сюда Hugo сохранит сгенерированный сайт
+publishdir = "./public/"
+
+#[[menu.main]]
+#  # Отображаемое название раздела
+#  name = "Блог"
+#
+#  # Вес для сортировки пунктов меню,
+#  # чем меньше - тем раньше пункт будет отображен
+#  weight = 10
+#
+#
+# # Идентификатор родителя для вложенных пунктов,
+# # не все темы поддерживают вложенность
+#  identifier = "blog"
+#
+#  # Путь до раздела со статьями,
+#  # соответствует имени папки внутри <OWNER>.github.io/content/
+#  url = "/blog"
