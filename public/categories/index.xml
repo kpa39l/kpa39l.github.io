@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Storozhenko</title>
+    <link>https://gelonet.ru/categories/</link>
+    <description>Recent content in Categories on Storozhenko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/tanksuzuki&#34;&gt;Asuka Suzuki&lt;/a&gt; 2016</copyright><atom:link href="https://gelonet.ru/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

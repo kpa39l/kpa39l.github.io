@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Storozhenko</title>
+    <link>https://gelonet.ru/tags/</link>
+    <description>Recent content in Tags on Storozhenko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/tanksuzuki&#34;&gt;Asuka Suzuki&lt;/a&gt; 2016</copyright>
+    <lastBuildDate>Wed, 13 Jul 2022 20:00:30 +0300</lastBuildDate><atom:link href="https://gelonet.ru/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://gelonet.ru/tags/blog/</link>
+      <pubDate>Wed, 13 Jul 2022 20:00:30 +0300</pubDate>
+      
+      <guid>https://gelonet.ru/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github pages</title>
+      <link>https://gelonet.ru/tags/github-pages/</link>
+      <pubDate>Wed, 13 Jul 2022 20:00:30 +0300</pubDate>
+      
+      <guid>https://gelonet.ru/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://gelonet.ru/tags/hugo/</link>
+      <pubDate>Wed, 13 Jul 2022 20:00:30 +0300</pubDate>
+      
+      <guid>https://gelonet.ru/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
