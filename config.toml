@@ -10,7 +10,7 @@ enableRobotsTXT = true
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
-authorName = "Стороженко Евгений" # Author full name
+authorName = "Стороженко  Евгений" # Author full name
 authorEmail = "kpa39l@yandex.ru" # Author email
 [params.assets]
 customCSS = ["css/custom.css"]
