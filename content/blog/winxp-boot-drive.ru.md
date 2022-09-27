@@ -1,6 +1,6 @@
 +++
 title = "Загрузочная флэшка с WinXP"
-date = "2014-09-24 00:47"
+date = "2014-09-24"
 tags = [
     "windows",
     "tools",
