@@ -1,5 +1,5 @@
 baseURL = "http://kpa39l.github.io"
-title = "Стороженко Евгений Владимирович"
+title = "Storozhenko Evgeny Vladimirovich"
 theme = "hugo-coder"
 languageCode = "ru"
 defaultContentLanguage = "en"
@@ -12,11 +12,11 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "Стороженко Евгений Владимирович"
-# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Личный сайт Стороженко Евгения Владимировича"
+author = "Storozhenko Evgeny aka Kpa39l"
+license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+description = "Personal site of Storozhenko Evgeny aka Kpa39l"
 keywords = "blog,ops-engineer,personal"
-info = ["IT менеджер", "OPS инженер"]
+info = ["IT manager", "OPS-engineer", "son", "husband", "father"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
@@ -30,7 +30,7 @@ rtl = false
 # "auto" (use preference set by browser)
 # "dark" (dark background, light foreground)
 # "light" (light background, dark foreground) (default)
-colorScheme = "dark"
+colorScheme = "auto"
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = false
 # Series see also post count
@@ -136,13 +136,13 @@ url = "https://vk.com/kpa39l"
 [[params.social]]
 name = "Telegram"
 icon = "fa fa-2x fa-telegram"
-weight = 5
+weight = 6
 url = "https://t.me/dedinit"
 
 [[params.social]]
 name = "RSS"
 icon = "fa fa-2x fa-rss"
-weight = 6
+weight = 7
 url = "https://myhugosite.com/index.xml"
 rel = "alternate"
 type = "application/rss+xml"
@@ -166,9 +166,9 @@ weight = 3
 url = "projects/"
 
 [[languages.en.menu.main]]
-name = "Contact me"
+name = "CV"
 weight = 5
-url = "contact/"
+url = "resume/"
 
 [languages.pt-br]
 languageName = ":brazil:"
@@ -198,4 +198,37 @@ url = "projects/"
 [[languages.pt-br.menu.main]]
 name = "Contato"
 weight = 5
-url = "contact/"
+url = "resume/"
+
+[languages.ru]
+languageName = ":ru:"
+title = "Стороженко Евгений Владимирович"
+
+[languages.ru.params]
+author = "Стороженко Евгений Владимирович"
+info = ["IT менеджер", "OPS-инженер", "сын", "муж", "отец"]
+description = "Личный сайт Стороженко Евгения Владимировича"
+keywords = "blog,ops-engineer,personal"
+
+[[languages.ru.menu.main]]
+name = "Обо мне"
+weight = 1
+url = "about/"
+
+[[languages.ru.menu.main]]
+name = "Блог"
+weight = 2
+url = "blog/"
+
+[[languages.ru.menu.main]]
+name = "Проекты"
+weight = 3
+url = "projects/"
+
+[[languages.ru.menu.main]]
+name = "Резюме"
+weight = 5
+url = "resume/"
+
+
+
