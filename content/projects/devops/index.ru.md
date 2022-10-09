@@ -2,6 +2,7 @@
 title = "Дорожная карта по изучению профессии DevOps"
 slug = "devopsroadmap"
 date = "2022-09-27"
+lastmod = "2022-10-09T18:26:39.021Z"
 +++
 
 На основе [дорожной карты](https://roadmap.sh/devops) DevOps инженера и SRE создаю расширенный список материалов для изучения.
@@ -10,76 +11,78 @@ date = "2022-09-27"
 Для удобства представления вот диаграмма в [Mermaid](https://mermaid-js.github.io/mermaid/#/)
 
 {{<mermaid>}}
-stateDiagram-v2
+    graph TD
+    S1[Язык программирования]
+    S1 -.-> S101(Python)
+    S1 -.-> S102(Ruby)
+    S1 -.-> S103(JavaScript)
+    S1 ---> S104(Go)
+    S1 -.-> S105(Rust)
+    S1 -.-> S106(C++)
+        subgraph  
+            direction TB 
+            S101 
+            S102
+            S103
+            S104
+            S105
+            S106
+        end
+    S104 ====> S2
 
- S1: Изучаем язык программирования
-         note left of S1
-            Python
-        end note
-         note left of S1
-            Ruby
-        end note
-         note left of S1
-            Javascript
-        end note
-         note right of S1
-            Go
-        end note
-         note right of S1
-            Rust
-        end note
-         note right of S1
-            C++
-        end note
-S1 --> S2
-S2: Основы Операционных Систем
-    note right of S2
-        Управление устройствами ввода/вывода
-    end note
-    note right of S2
-        Виртуализация
-    end note
-    note right of S2
-        Память/Хранилища
-    end note
-    note right of S2
-        Файловые системы
-    end note
-    note right of S2
-        Настройки сети
-    end note
-    note right of S2
-        Сокеты
-    end note
-    note right of S2
-        Процессы
-    end note
-    note right of S2
-        POSIX
-    end note
-    note right of S2
-        systemd
-    end note
-    note right of S2
-        Потоки и параллелеризм
-    end note
-S2 --> S3
-S3: Работа с GNU/Linux
-S3 --> S4
-S4: Сети, безопаность и протоколы
-S4 --> S5
-S5: Развертывание сервисов
-S5 --> S6
-S6: Инфраструктура как код
-S6 --> S7
-S7: CI/CD инструменты
-S7 --> S8
-S8: Мониторинг инфраструктуры и ПО
-S8 --> S9
-S9: Облачные провайдеры
-S9 --> S10
-S10: Паттерны создания облаков
-S10 --> S11
-S11: Проложаем учиться           
+    click S104 "https://stepik.org/course/54403/syllabus" "Программирование на Golang"
+    
+    %%Второй шаг
+    S2(Основы Операционных Систем)
+    S2 --->S201(Управление устройствами ввода/вывода)
+    S2 --->S202(Виртуализация)
+    S2 --->S203(Память/Хранилища)
+    S2 --->S204(Файловые системы)
+    S2 --->S205(Настройки сети)
+    S2 --->S206(Сокеты)
+    S2 --->S207(Процессы)
+    S2 --->S208(POSIX)
+    S2 --->S209(systemd)
+    S2 --->S210(Потоки и параллелеризм)
+        subgraph  
+            S201
+            S202
+            S203
+            S204
+            S205
+            S206
+            S207
+            S208
+            S209
+            S210
+        end
 
+    S201 ===> S3
+    S202 ===> S3
+    S203 ===> S3
+    S204 ===> S3
+    S205 ===> S3
+    S206 ===> S3
+    S207 ===> S3
+    S208 ===> S3
+    S209 ===> S3
+    S210 ===> S3
+
+    S3(Работа с GNU/Linux)
+    S3 ====> S4
+    S4(Сети, безопаность и протоколы)
+    S4 ====> S5
+    S5(Управление сервисами)
+    S5 ====> S6
+    S6(Инфраструктура как код)
+    S6 ====> S7
+    S7(CI/CD инструменты)
+    S7 ====> S8
+    S8(Мониторинг инфраструктуры и ПО)
+    S8 ====> S9
+    S9(Облачные провайдеры)
+    S9 ====> S10
+    S10(Паттерны создания облаков)
+    S10 ====> S11
+    S11(Проложаем учиться)
 {{</mermaid>}}
