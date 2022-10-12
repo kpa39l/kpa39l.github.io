@@ -1,15 +1,9 @@
 +++
-title = "Дорожная карта по изучению профессии DevOps"
-slug = "devopsroadmap"
-date = "2022-09-27"
+title = "Дорожная карта по изучению профессии SysOps"
+date = "2022-10-10"
 lastmod = "2022-10-09T18:26:39.021Z"
+slug = "dorozhnaya-karta-po-izucheniyu-professii-sysops"
 +++
-
-На основе [дорожной карты](https://roadmap.sh/devops) DevOps инженера и SRE создаю расширенный список материалов для изучения.
-В итоге, хочу получить учебный курс для сисадминов.
-
-Для удобства представления вот диаграмма в [Mermaid](https://mermaid-js.github.io/mermaid/#/)
-
 {{<mermaid>}}
     graph TD
     S1[Язык программирования]
@@ -20,6 +14,7 @@ lastmod = "2022-10-09T18:26:39.021Z"
     S1 -.-> S105(Rust)
     S1 -.-> S106(C++)
         subgraph  
+            S1
             direction TB 
             S101 
             S102
@@ -30,7 +25,7 @@ lastmod = "2022-10-09T18:26:39.021Z"
         end
     S104 ====> S2
 
-    click S104 "https://stepik.org/course/54403/syllabus" "Программирование на Golang"
+    %%click S104 "https://stepik.org/course/54403/syllabus" "Программирование на Golang"
     
     %%Второй шаг
     S2(Основы Операционных Систем)
@@ -45,6 +40,7 @@ lastmod = "2022-10-09T18:26:39.021Z"
     S2 --->S209(systemd)
     S2 --->S210(Потоки и параллелеризм)
         subgraph  
+            S2
             S201
             S202
             S203
@@ -73,7 +69,9 @@ lastmod = "2022-10-09T18:26:39.021Z"
     S4(Сети, безопаность и протоколы)
     S4 ====> S5
     S5(Управление сервисами)
+        S501 --->
     S5 ====> S6
+
     S6(Инфраструктура как код)
     S6 ====> S7
     S7(CI/CD инструменты)
