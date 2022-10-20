@@ -49,5 +49,14 @@
         }
       ]
     }
+  ],
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "russia",
+      "path": "[[workspace]]/content/projects/russia"
+    }
   ]
 }
