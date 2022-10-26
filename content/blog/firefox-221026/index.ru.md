@@ -1,7 +1,9 @@
----
-title = 'Новости Firefox на 26 октября 2022'
-draft = 'false'
----
++++
+title = "Новости Firefox на 26 октября 2022"
+draft = false
+date = "2022-10-126"
+tags = [ "firefox" ]
++++
 
 ## Приватный режим
 
